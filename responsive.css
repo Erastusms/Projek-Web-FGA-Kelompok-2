@@ -5,13 +5,19 @@
     }
     .card {
       width: 75%;
-      margin-bottom: 50px;
-      
+      margin-bottom: 50px;   
     }
   }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
+    .fa.menu-icon {
+      display: block;
+    }
+
+    .header-list {
+      display:none;
+    }
     .menu-icon {
       display: block;
     }

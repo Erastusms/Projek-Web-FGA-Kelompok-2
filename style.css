@@ -13,6 +13,13 @@ li {
   padding: 33px 20px;
 }
 
+header {
+  max-width: 1170px;
+    width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+}
+
 .header {
   background-color: #fff;
   color: #000;
@@ -26,12 +33,33 @@ li {
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.menu-icon {
-  color: white;
+.header-list {
+   
+  margin-right: -25px;
+}
+
+.header-list li {
+  line-height: 65px;
+  padding: 10px 40px;
+  color: black;
+  display: block; 
+  transition: all 0.5s;
+}
+
+.header-list li:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
+.fa.menu-icon {
+  color: black;
   float: right;
   font-size: 25px;
-  padding: 21px 0;
-  display: none;
+  padding: 34px 0;
+  display:none;
+}
+
+.fa {
+  margin-right: 5%;
 }
 
 .container {

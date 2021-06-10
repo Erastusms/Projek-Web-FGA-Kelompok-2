@@ -1,0 +1,40 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+    .trending h1 {
+      font-size: 32px;
+    }
+    .card {
+      width: 75%;
+      margin-bottom: 50px;
+      
+    }
+  }
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+    .menu-icon {
+      display: block;
+    }
+    .trending {
+      padding: 20px 20px;
+      text-align: left;
+    }
+
+    .trending h1 {
+      font-size: 24px;
+      line-height: 36px;
+    }
+    
+    .trending p {
+      font-size: 14px;
+      line-height: 20px;
+    }
+
+    .card {
+      width: 66%;
+    }
+
+    footer {
+      text-align: center;
+    }
+  }
